@@ -1,0 +1,28 @@
+{
+	"name": "timberStarter",
+	"author": "mohamedtwice",
+	"private": true,
+	"version": "0.0.1",
+	"devDependencies": {
+		"babel-preset-es2015": "latest",
+		"babel-register": "latest",
+		"browser-sync": "latest",
+		"foundation-sites": "6.4.*",
+		"gulp": "latest",
+		"gulp-autoprefixer": "latest",
+		"gulp-babel": "latest",
+		"gulp-clean-css": "latest",
+		"gulp-concat": "latest",
+		"gulp-flatten": "latest",
+		"gulp-imagemin": "latest",
+		"gulp-line-ending-corrector": "latest",
+		"gulp-plumber": "latest",
+		"gulp-rename": "latest",
+		"gulp-sass": "latest",
+		"gulp-sourcemaps": "latest",
+		"gulp-uglify": "latest",
+		"gulp-watch": "latest",
+		"motion-ui": "latest",
+		"picturefill": "latest"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "timber/timber": "1.4.*",
+        "mindkomm/timmy": "0.11.*",
+		"twig/twig": "2.4.*"
+    }
+}
