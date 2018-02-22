@@ -9,20 +9,23 @@
 
 	<body class="{{ body_class }}" data-template="base.twig">
 		{% block header %}
-		
-			<header class="site-header">
+		<header class="site-header">
+
+			<div class="row">
 				<div class="site-header__wrapper">
-					{% include 'partials/site-logo.twig' %}
+					<!-- {% include 'partials/site-logo.twig' %} -->
 
 					{% include 'partials/nav-main.twig' %}
 				</div>
+			</div>
+
 			</header>
 		{% endblock %}
 
 		<main role="main" class="site-main">
 			<div class="site-main__content">
 				{% block content %}
-					{{ __( 'Sorry, no content.', 'wbkn' ) }}
+					{{ __( 'Sorry, no content.', 'timberStarter' ) }}
 				{% endblock %}
 			</div>
 
@@ -39,5 +42,6 @@
 
 		{{ function('wp_footer') }}
 
+		<script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
 	</body>
 </html>

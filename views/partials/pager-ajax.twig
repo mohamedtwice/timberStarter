@@ -5,8 +5,8 @@
 
 {% if posts.pagination.next %}
 	<div class="pager pager--load-more js-loop-cta">
-		<div class="pager__loader js-ajax-loader">{{ __( 'Loading...', 'wbkn' ) }}</div>
+		<div class="pager__loader js-ajax-loader">{{ __( 'Loading...', 'timberStarter' ) }}</div>
 
-		<a href="{{ posts.pagination.next.link }}" rel="next" class="pager__btn btn js-ajax-load-posts">{{ __( 'Load more', 'wbkn' ) }}</a>
+		<a href="{{ posts.pagination.next.link }}" rel="next" class="pager__btn btn js-ajax-load-posts">{{ __( 'Load more', 'timberStarter' ) }}</a>
 	</div>
 {% endif %}
